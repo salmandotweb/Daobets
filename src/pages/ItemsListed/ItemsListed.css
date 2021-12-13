@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 95%;
+  }
+}
+.items-listed-container {
+  max-width: 70%;
+}
+.items-listed-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .items-listed-container {
+    max-width: 90% !important;
+  }
+}
+@media screen and (max-width: 710px) {
+  .row-cols-2 > * {
+    width: 100% !important;
+  }
+}

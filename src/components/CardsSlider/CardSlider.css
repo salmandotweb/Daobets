@@ -1,0 +1,15 @@
+.slider {
+  overflow: hidden;
+  min-height: 50vh;
+}
+@media screen and (max-width: 700px) {
+  .slider {
+    min-height: auto;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .slick-dots {
+    display: none !important;
+  }
+}

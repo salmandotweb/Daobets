@@ -1,0 +1,33 @@
+.dashboard {
+  background: var(--white);
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.listed-sections {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listed-section {
+  width: 49%;
+}
+.listed-title {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+@media screen and (max-width: 890px) {
+  .listed-sections {
+    flex-direction: column;
+  }
+  .listed-section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .listed-sections {
+    max-width: 95%;
+  }
+}

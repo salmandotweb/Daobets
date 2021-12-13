@@ -1,0 +1,90 @@
+.header-navbar {
+  background: none;
+  z-index: 10000;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 0.7rem 1rem;
+}
+.navbar-container {
+  max-width: 100% !important;
+}
+.navbar-brand {
+  max-width: 10rem;
+  padding: 0;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-brand img {
+  width: 100%;
+}
+.nav-item:not(:last-child) {
+  margin-right: 2rem;
+}
+.nav-item > a {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--white) !important;
+}
+.nav-item > a:hover {
+  color: var(--primary-pink) !important;
+}
+.btn {
+  background-color: var(--primary-pink);
+  color: var(--white);
+  border: 0.2rem solid var(--primary-pink);
+  border-radius: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.btn i {
+  margin-left: 0.2rem;
+}
+.btn:hover {
+  background: transparent;
+  border: 0.2rem solid var(--primary-pink);
+  color: var(--white);
+}
+.btn:active {
+  outline: none !important;
+  transform: scale(0.98);
+}
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  height: 3rem;
+  width: 3rem;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.appNav {
+  display: none;
+}
+.collectBtn {
+  margin-left: 1.5rem;
+}
+/* media queries */
+@media screen and (max-width: 992px) {
+  .nav-item:not(:last-child) {
+    margin-right: 0;
+  }
+  .navbar-brand {
+    max-width: 8.5rem;
+  }
+  .navbar {
+    background: var(--dark-purple);
+    padding: 0.5rem;
+  }
+  .navbar-collapse {
+    padding: 2rem 0;
+  }
+}

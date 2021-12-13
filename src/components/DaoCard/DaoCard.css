@@ -1,0 +1,29 @@
+.dao-card {
+  border: 0.2rem solid rgb(229, 231, 235);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.dao-card h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+.daoBtn {
+  font-size: 0.8rem;
+}
+.daoBtn:hover {
+  color: var(--primary-pink);
+}
+@media screen and (max-width: 600px) {
+  .dao-card {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+}

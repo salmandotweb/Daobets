@@ -1,0 +1,9 @@
+.dao-stats {
+  margin-bottom: 1rem;
+}
+.dao-stats p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}

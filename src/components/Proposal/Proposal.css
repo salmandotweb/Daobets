@@ -1,0 +1,80 @@
+.proposal {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.proposal-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+}
+.proposal-left > p {
+  margin-bottom: 0;
+  color: #aaa;
+}
+.proposal-left > h3 {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 1rem;
+  line-height: 1.5;
+}
+.voteBtn {
+  background: none;
+  border: 0.1rem solid;
+  /* border-color: green; */
+  border-radius: 0.3rem;
+  /* color: red; */
+}
+.voteBtn:active {
+  transform: scale(0.98);
+}
+@media screen and (max-width: 920px) {
+  .proposal-left > h3 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 810px) {
+  .proposal-left > h3 {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 774px) {
+  .proposal-left > h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 714px) {
+  .proposal-left > h3 {
+    max-width: 85%;
+  }
+}
+@media screen and (max-width: 518px) {
+  .proposal-left > h3 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .voteBtn {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .voteBtn {
+    font-size: 0.9rem;
+  }
+  .proposal {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .proposal-left {
+    margin-bottom: 1rem;
+  }
+  .proposal-left > h3 {
+    max-width: 100%;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+}

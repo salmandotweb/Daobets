@@ -1,0 +1,175 @@
+.section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.graph-section {
+  /* min-height: 70vh; */
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  overflow: hidden;
+  padding: 4rem;
+}
+.left-container {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 2rem;
+}
+.right-container {
+  /* background: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.graph-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: var(--dark-purple);
+}
+.graph-content {
+  font-size: 1.1rem !important;
+  margin: 0;
+  color: #000;
+  font-weight: 300;
+  max-width: 80%;
+}
+.graph-points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+.graph-points span {
+  font-size: 1.1rem !important;
+  margin: 0;
+  color: #000;
+  font-weight: 300;
+}
+@media screen and (max-width: 1075px) {
+  .graph-content {
+    /* font-size: 0.9rem !important; */
+    margin: 0;
+  }
+  .left-container {
+    flex: 1;
+  }
+  .right-container {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 764px) {
+  .graph-section {
+    flex-direction: column-reverse;
+  }
+  .right-container {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .graph-content {
+    font-size: 0.9rem !important;
+  }
+  .graph-points {
+    align-items: flex-start;
+  }
+  .graph-points span {
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  .graph-content {
+    max-width: 85%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .graph-section {
+    padding-left: 2rem;
+  }
+  .right-container {
+    text-align: left;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+  .left-container {
+    width: 100%;
+  }
+  .graph-points {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 382px) {
+  .graph-section {
+    padding-left: 1rem;
+  }
+  .left-container {
+    align-items: center;
+  }
+  .right-container {
+    text-align: left;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+  .graph-content {
+    font-size: 0.8rem !important;
+  }
+  .graph-points span {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 344px) {
+  .graph-section {
+    padding-left: 0;
+  }
+}
+.tokenomics-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 0.4;
+  overflow: hidden;
+}
+@media screen and (max-width: 1282px) {
+  .graph-section {
+    padding: 4rem 2rem;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .graph-section {
+    flex: 0.7;
+  }
+  .tokenomics-section {
+    flex: 0.3;
+  }
+  .graph-content {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 1078px) {
+  .section-wrapper {
+    flex-direction: column;
+  }
+  .graph-section {
+    flex: 1;
+  }
+  .tokenomics-section {
+    margin: 0 auto;
+    flex: 1;
+    padding: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .tokenomics-section {
+    margin: 0 auto 0 0;
+    padding: 2rem;
+  }
+}

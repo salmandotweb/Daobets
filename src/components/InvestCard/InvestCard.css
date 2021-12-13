@@ -1,0 +1,89 @@
+.invest-card {
+  align-items: center;
+  width: 100%;
+  margin: 1rem;
+  border-radius: 0 !important;
+  color: var(--white);
+  padding: 2rem 1rem;
+  transition: 1s all !important;
+  background: none;
+  background-image: linear-gradient(to bottom, rgb(33, 0, 99), rgb(2, 0, 31));
+  backdrop-filter: blur(10px);
+  border: none;
+  box-shadow: 0 0.5rem 0.8rem rgb(94, 53, 177, 0.2);
+  cursor: pointer;
+}
+.invest-card:hover {
+  background-image: linear-gradient(to bottom, rgb(44, 0, 133), rgb(0, 13, 65));
+  transform: scale(1.1) !important;
+}
+.card-body .subtitle {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.avatar {
+  max-width: 13rem;
+  max-height: 13rem;
+}
+
+@media screen and (max-width: 1285px) {
+  .invest-card {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .invest-card {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .invest-card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 890px) {
+  .invest-card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .invest-card {
+    width: 85%;
+  }
+  .invest-card:hover {
+    background-image: linear-gradient(to bottom, rgb(33, 0, 99), rgb(2, 0, 31));
+    transform: scale(1) !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  .invest-card {
+    width: 70%;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .card-body .subtitle {
+    max-width: 95%;
+    font-size: 0.7rem !important;
+  }
+}
+@media screen and (max-width: 585px) {
+  .invest-card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 515px) {
+  .invest-card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .invest-card {
+    width: 100%;
+  }
+}

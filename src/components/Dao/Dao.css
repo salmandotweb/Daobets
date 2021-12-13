@@ -1,0 +1,273 @@
+.dao-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+.dao-boxes-container {
+  display: flex;
+  width: 100%;
+}
+.dao-boxes-container .heading {
+  font-weight: 600;
+}
+.dao-boxes-container * p {
+  color: var(--primary-pink);
+}
+.daobets-governance-box {
+  border: 0.2rem solid rgb(229, 231, 235);
+  padding: 1rem;
+  border-radius: 1rem;
+  flex: 0.3;
+  text-transform: uppercase;
+}
+.daobets-governance-box h4 {
+  font-size: 1.2rem;
+}
+.total-supply {
+  padding: 1rem 0;
+}
+.total-supply p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+.total-supply h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+.staking-box {
+  border: 0.2rem solid rgb(229, 231, 235);
+  padding: 1rem;
+  border-radius: 1rem;
+  flex: 0.7;
+  margin-left: 1rem;
+}
+.staking-box h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.percent-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid rgb(229, 231, 235);
+}
+.tvl p {
+  margin: 0;
+}
+.tvl h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.average {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 2rem;
+}
+.yearly {
+  margin: 0 2rem;
+}
+.yearly p,
+.weekly p {
+  font-size: 0.8rem;
+}
+.yearly h3,
+.weekly h3 {
+  font-size: 1.4rem;
+}
+.balance-box {
+  padding: 1rem 0;
+  border-bottom: 0.2rem solid rgb(229, 231, 235);
+}
+.deposit-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.total-price h3 {
+  font-size: 1.1rem;
+}
+.total-price h5 {
+  font-size: 0.8rem;
+}
+.deposit {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+.up {
+  margin-right: 1rem;
+}
+.up > p > span,
+.down > p > span {
+  background: var(--primary-pink);
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+}
+.farmed-box {
+  padding: 1rem 0;
+}
+.claim {
+  align-self: flex-start;
+}
+.voting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  border: 0.2rem solid rgb(229, 231, 235);
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+.voting h4 {
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.voting p {
+  color: var(--primary-pink);
+  font-style: italic;
+  margin: 0;
+}
+.dao-cards-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem 0;
+  width: 100%;
+}
+.proposal-container {
+  max-width: 90%;
+  min-width: 800px;
+  margin: 2rem 0;
+}
+.proposal-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.proposal-heading > h2 {
+  font-size: 1.8rem;
+}
+.proposalBtn {
+  background: var(--primary-pink);
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.proposalBtn:active {
+  transform: scale(0.98);
+}
+.proposals {
+  margin: 2rem 0;
+}
+@media screen and (max-width: 1114px) {
+  .dao-boxes-container {
+    padding: 2rem;
+  }
+  .dao-page {
+    padding: 0rem;
+  }
+  .voting {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .dao-cards-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 952px) {
+  .dao-boxes-container {
+    flex-direction: column;
+  }
+  .daobets-governance-box {
+    margin-bottom: 1rem;
+  }
+  .staking-box {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 920px) {
+  .proposal-container {
+    min-width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .average {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .percent-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .tvl {
+    margin-bottom: 1rem;
+  }
+  .average {
+    margin-right: 0;
+  }
+  .yearly {
+    margin: 0;
+    margin-right: 1rem;
+  }
+  .deposit-box {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .deposit {
+    margin-right: 0;
+  }
+  .total-price {
+    margin-bottom: 1rem;
+  }
+  .claim {
+    align-self: center;
+  }
+  .dao-cards-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 518px) {
+  .proposal-container {
+    max-width: 94%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .proposal-heading > h2 {
+    font-size: 1.3rem;
+  }
+  .proposalBtn {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .dao-boxes-container {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 365px) {
+  .daobets-governance-box h4,
+  .staking-box h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .proposal-container {
+    max-width: 100%;
+    min-width: 1000px;
+  }
+}

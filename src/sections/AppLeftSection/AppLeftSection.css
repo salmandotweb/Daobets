@@ -1,0 +1,40 @@
+.app-left-container {
+  background: #f2f2f2;
+  max-width: 70%;
+  padding: 0.6rem 0;
+}
+.previews {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+.previews .app-img {
+  max-width: 100%;
+  margin: 0.5rem 0;
+}
+.app-img img {
+  width: 100%;
+  border: 0.1rem solid rgb(172, 172, 172);
+  border-radius: 0.5rem;
+}
+.app-left-container::-webkit-scrollbar {
+  width: 0.6rem;
+}
+.app-left-container::-webkit-scrollbar-track {
+  background-color: none;
+}
+.app-left-container::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 1rem;
+}
+.app-left-container:hover::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 800px) {
+  .app-left-container {
+    max-width: 100%;
+  }
+}

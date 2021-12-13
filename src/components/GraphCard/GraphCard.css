@@ -1,0 +1,52 @@
+.graph-card {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--white);
+  color: var(--primary-pink);
+  padding: 2rem 3rem;
+  border-color: 229, 231, 235;
+  border-style: solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.graph-img {
+  max-width: 7rem;
+}
+.graph-img img {
+  width: 100%;
+}
+.graph-card-body h5 {
+  font-weight: 700;
+  margin: 1rem 0 0 0;
+  font-size: 2rem;
+}
+.graph-card-body p {
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+.graph-btn {
+  font-size: .8rem;
+}
+.graph-btn:hover {
+  color: var(--primary-pink);
+}
+@media screen and (max-width: 1075px) {
+  .graph-card {
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 764px) {
+  .graph-card {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .graph-card {
+    margin: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.header__cards-wrapper {
+  /* min-height: 50vh; */
+  padding: 2rem;
+}
+.header__cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  box-shadow: 0 1rem 1rem rgba(195, 195, 195);
+}
+@media screen and (max-width: 798px) {
+  .header__cards-wrapper {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 675px) {
+  .header__cards-container {
+    flex-direction: column;
+  }
+}

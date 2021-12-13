@@ -1,0 +1,27 @@
+.market-nav {
+  background: var(--dark-purple-3);
+  z-index: 1000;
+  width: 100%;
+}
+.app-nav-btn {
+  border-radius: 0.3rem;
+}
+.app-nav-btn:not(:last-child) {
+  margin: 0 1rem;
+}
+.market-nav-btn {
+  /* border-radius: 0.2rem; */
+  padding: 0.5rem 2rem;
+  background: var(--primary-pink);
+  border-color: var(--primary-pink);
+  margin-left: 1rem;
+}
+.market-nav-btn:hover {
+  border-color: var(--primary-pink);
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    /* margin-right: auto; */
+  }
+}

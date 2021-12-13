@@ -1,0 +1,62 @@
+.banner {
+  /* min-height: 40vh; */
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  padding: 4rem 0;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(rgb(94, 53, 177), rgb(47, 27, 89, 0.75));
+  z-index: -1;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 1.2rem;
+}
+.askBtn {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 700px) {
+  .banner h1 {
+    font-size: 1.7rem;
+  }
+  .askBtn {
+    font-size: 0.7rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+  .askBtn {
+    font-size: 0.6rem !important;
+  }
+}
+/* @media screen and (max-width: 530px) {
+  .banner {
+    min-height: 30vh;
+  }
+} */
+@media screen and (max-width: 478px) {
+  .banner h1 {
+    max-width: 96%;
+    line-height: 1.5;
+  }
+  .askBtn {
+    font-size: 0.6rem !important;
+  }
+}

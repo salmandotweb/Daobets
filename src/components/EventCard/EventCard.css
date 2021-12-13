@@ -1,0 +1,110 @@
+.event-card {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.1rem 0.4rem #aaa;
+}
+.event-card-header {
+  background: var(--primary-pink);
+  color: #fff;
+  padding: 0.5rem;
+}
+.event-card-header > p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.event-card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+.event-card-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0.5;
+}
+.event-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event-team > img {
+  max-width: 2.5rem;
+}
+.event-team > p {
+  margin: 0 0.7rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.vs {
+  margin: 0 0.5rem;
+}
+.event-card-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0.5;
+}
+.event-btn-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+  background: var(--primary-pink);
+  color: #fff;
+  padding: 0.3rem 3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.1rem 0.4rem #aaa;
+}
+.event-btn-stat > span {
+  font-size: 0.9rem;
+  color: #eee;
+}
+.event-btn-stat > p {
+  margin: 0;
+  font-weight: 600;
+}
+@media screen and (max-width: 1044px) {
+  .event-card-body {
+    flex-direction: column;
+    width: 100%;
+  }
+  .event-card-left {
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .event-card-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .event-btn-stat {
+    flex-basis: 33%;
+  }
+}
+@media screen and (max-width: 512px) {
+  .event-btn-stat {
+    padding: 0.3rem 0.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .event-btn-stat > p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .event-team > img {
+    max-width: 2rem;
+  }
+  .event-team > p {
+    font-size: 0.8rem;
+  }
+  .event-card-left {
+    justify-content: space-evenly;
+  }
+}

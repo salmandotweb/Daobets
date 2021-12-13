@@ -1,0 +1,152 @@
+.match-box {
+  background: var(--white);
+  border-radius: 0.5rem;
+  margin: 1rem 0.5rem;
+  padding: 0.4rem 0.6rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 0.1rem solid rgb(228, 228, 228);
+}
+.league {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.teams-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 0;
+}
+.teams-container .img-box {
+  width: 3.5rem;
+}
+.teams-container .img-box img {
+  width: 100%;
+}
+.team-1,
+.team-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 10rem;
+}
+.team-1 p,
+.team-2 p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.team-score {
+  display: flex;
+  align-items: center;
+}
+.team-score p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.betNowBtn {
+  border-radius: 0.3rem;
+  width: 100%;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
+  color: var(--primary-pink);
+}
+.betNowBtn:hover {
+  /* color: var(--primary-pink) !important; */
+  background: var(--primary-pink);
+  border-color: var(--primary-pink);
+}
+.bar {
+  margin: 0 0.5rem !important;
+  font-weight: 400 !important;
+}
+.boxes-container {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background: var(--primary-pink);
+  color: #fff;
+}
+.box > span,
+.box > p {
+  margin: 0;
+}
+.box > span {
+  color: #eee;
+}
+.box > p {
+  font-weight: 600;
+}
+@media screen and (max-width: 846px) {
+  .teams-container .img-box {
+    width: 3rem;
+  }
+  .box {
+    padding: 0.4rem 4rem;
+  }
+}
+@media screen and (max-width: 732px) {
+  .box {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    flex-basis: 30%;
+    border-radius: 0.2rem;
+  }
+  .boxes-container {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .box {
+    margin: 0;
+  }
+  .boxes-container {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 425px) {
+  .team-1 p,
+  .team-2 p {
+    font-size: 0.8rem;
+  }
+  .teams-container .img-box {
+    width: 2rem;
+  }
+  .league {
+    font-weight: 500;
+  }
+  .box > span {
+    font-size: 0.9rem;
+  }
+  .box > p {
+    font-size: 1rem;
+  }
+  .team-1,
+  .team-2 {
+    min-width: 30%;
+  }
+  .team-1 p,
+  .team-2 p {
+    max-width: 90%;
+    text-align: center;
+  }
+}

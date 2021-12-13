@@ -1,0 +1,40 @@
+.form-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  z-index: 10000 !important;
+  padding: 1rem;
+  overflow: hidden;
+}
+.cancel-btn {
+  background: none !important;
+  border: none !important;
+  color: #ea1d6f !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+  outline: none !important;
+  position: absolute;
+  bottom: 4.4rem;
+  right: 7.2rem;
+  font-weight: 400 !important;
+}
+.cancel-btn:hover {
+  color: #b9134f !important;
+}
+@media screen and (max-width: 1024px) {
+  .cancel-btn {
+    bottom: 4.45rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cancel-btn {
+    bottom: 3.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-modal {
+    width: 100% !important;
+  }
+}

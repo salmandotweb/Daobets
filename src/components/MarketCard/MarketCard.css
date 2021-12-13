@@ -1,0 +1,119 @@
+.market-card {
+  background: var(--white);
+  color: var(--dark-purple-3);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  transition: 0.2s all;
+  margin: 1rem 0;
+  min-height: 19rem !important;
+  border: 0.15rem solid rgb(229, 231, 235);
+  width: 100% !important;
+}
+.market-card:hover {
+  transform: scale(1.09);
+}
+.market-card-ids {
+  align-self: flex-start;
+}
+.market-card-id {
+  margin: 0;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  background: var(--primary-pink);
+  padding: 0 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.3rem;
+  color: var(--white);
+}
+.market-card-range {
+  margin: 0;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  color: var(--dark-purple-3);
+}
+.market-card-img {
+  max-width: 8.5rem !important;
+  /* margin: 0.3rem 0; */
+}
+.market-card-img img {
+  width: 100%;
+}
+.market-card-price {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.market-card-dollar {
+  margin: 0;
+  margin-right: 0.5rem;
+  font-size: 1.8rem;
+  color: var(--dark-purple-3);
+}
+.market-card-eth {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--dark-purple-3);
+}
+.btn-price-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.buy-btn {
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  background: var(--dark-purple-3);
+  border-color: var(--dark-purple-3);
+}
+.buy-btn:hover {
+  background: var(--white);
+  color: var(--dark-purple-3);
+  border-color: var(--dark-purple-3);
+}
+@media (max-width: 1100px) {
+  .buy-btn {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .buy-btn {
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+  .btn-price-container {
+    flex-direction: column-reverse;
+  }
+  .market-card-price {
+    margin: 1rem 0;
+  }
+}
+@media screen and (max-width: 1036px) {
+  .market-card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .market-card {
+    min-height: 23rem !important;
+  }
+}
+@media (max-width: 900px) {
+  .buy-btn:hover {
+    background: var(--dark-purple-3) !important;
+    color: var(--white);
+    border-color: var(--dark-purple-3);
+  }
+}
+@media (max-width: 600px) {
+  .market-card:hover {
+    transform: scale(1);
+  }
+}
