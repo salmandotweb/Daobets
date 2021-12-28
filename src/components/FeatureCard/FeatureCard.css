@@ -5,10 +5,9 @@
   justify-content: space-between;
   text-align: center;
   /* max-width: 25%; */
-  border: none;
   margin: 0rem 1rem;
   transition: 0.3s all;
-  /* background: red; */
+  background: none;
 }
 .feature-img {
   width: 18rem;
@@ -20,7 +19,7 @@
 .feature-card h5 {
   margin-top: 0.4rem;
   font-weight: 700;
-  color: var(--primary-pink);
+  color: var(--white);
   text-transform: uppercase;
 }
 .feature-card {

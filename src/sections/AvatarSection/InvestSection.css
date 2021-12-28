@@ -11,7 +11,7 @@
   padding: 5rem 0;
   margin-top: 1rem;
 }
-.invest-section::before {
+/* .invest-section::before {
   content: "";
   height: 100%;
   width: 100%;
@@ -20,7 +20,7 @@
   left: 0;
   background: radial-gradient(rgb(94, 53, 177), rgb(47, 27, 89, 0.75));
   z-index: -1;
-}
+} */
 .invest-section-cards {
   display: flex;
   align-items: center;

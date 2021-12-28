@@ -1,17 +1,16 @@
 .recently-sold-card {
   display: flex;
   align-items: center;
-  color: var(--dark-purple-3);
+  color: var(--white);
   padding: 0 1rem 0 0;
   cursor: pointer;
   transition: 0.2s all;
   min-height: 6.5rem;
 }
 .recently-sold-card:not(:last-child) {
-  border-bottom: 0.1rem solid var(--dark-purple);
+  border-bottom: 0.1rem solid var(--white);
 }
 .recently-sold-card:hover {
-  background: var(--dark-purple);
   color: var(--white);
 }
 .sold-card-img {
@@ -21,7 +20,7 @@
   width: 100%;
 }
 .card-id {
-  background: var(--dark-purple-3);
+  background: var(--white);
   padding: 0.1rem 0;
   display: flex;
   align-items: center;
@@ -44,10 +43,10 @@
 .etherum {
   font-size: 0.9rem;
   margin: 0.1rem 0;
-  color: #aaa;
+  color: var(--white);
 }
 .time {
-  color: #aaa;
+  color: var(--white);
   font-size: 0.8rem;
 }
 .arrow-btn {

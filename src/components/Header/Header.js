@@ -7,18 +7,21 @@ import "../../index.css";
 export default function Header() {
   return (
     <div className="header-container">
-      <header
-        className="header"
-        style={{
-          background: "url(images/bg-image.jpeg)",
-          backgroundSize: "cover",
-          backgroundPosition: "bottom center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+      <header className="header">
+        <div className="bg-video">
+          <video autoPlay loop muted>
+            <source
+              src="videos/bg-video.mp4"
+              type="video/mp4"
+              loop
+              autoPlay
+              muted
+            />
+          </video>
+        </div>
         <div className="header__content">
           <h1 className="h1-red">
-            <span style={{ color: "#ff3573" }}>Decentralized</span> Social
+            <span style={{ color: "#ff47ff" }}>Decentralized</span> Social
             Betting
           </h1>
           <h1 data-aos="fade-down">Metaverse Game</h1>

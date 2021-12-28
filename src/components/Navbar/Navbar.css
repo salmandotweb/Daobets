@@ -87,4 +87,15 @@
   .navbar-collapse {
     padding: 2rem 0;
   }
+  .collectBtn {
+    margin-left: 0;
+  }
+  .header-navbar {
+    background: var(--black);
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    padding: 10rem 0;
+  }
 }

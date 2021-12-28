@@ -1,5 +1,5 @@
 .footer {
-  background: #000;
+  background: none;
   color: var(--white);
   font-weight: 400;
   display: flex;
@@ -8,6 +8,9 @@
   width: 100%;
   padding: 0.7rem 0.5rem;
   font-size: 0.8rem;
+}
+.colorize {
+  color: var(--primary-pink);
 }
 .footer p {
   margin: 0;

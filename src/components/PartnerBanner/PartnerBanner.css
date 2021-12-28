@@ -11,21 +11,12 @@
   position: relative;
   z-index: 1;
 }
-.partner-banner::before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: radial-gradient(rgb(94, 53, 177), rgb(47, 27, 89, 0.75));
-  z-index: -1;
-}
 .partner-banner h1 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 2rem;
-  /* padding-top: 1rem; */
+  font-size: 2.5rem;
+  color: var(--primary-pink);
+  padding-bottom: 1rem;
 }
 .logos {
   display: flex;
@@ -37,7 +28,7 @@
   margin: 1rem;
 }
 .partner-logo {
-  width: 7rem;
+  width: 8rem;
 }
 .partner-logo img {
   height: 100%;

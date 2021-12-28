@@ -1,6 +1,5 @@
 .banner {
   /* min-height: 40vh; */
-  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -11,15 +10,10 @@
   position: relative;
   padding: 4rem 0;
 }
-.banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: radial-gradient(rgb(94, 53, 177), rgb(47, 27, 89, 0.75));
-  z-index: -1;
+.banner-circle {
+  border: 0.2rem solid var(--grey);
+  border-radius: 0.5rem;
+  padding: 5rem;
 }
 .banner h1 {
   font-weight: 700;

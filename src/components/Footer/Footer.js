@@ -6,7 +6,11 @@ import "../../index.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <p> &copy; CopyRight All right reserved & designed by DAOBETs</p>
+      <p>
+        {" "}
+        <span className="colorize"> &copy; CopyRight</span> All right reserved &
+        designed by DAOBETs
+      </p>
       <div className="links">
         <Link to="/">
           <i className="fab fa-twitter"></i>

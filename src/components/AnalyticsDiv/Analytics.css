@@ -3,13 +3,14 @@
   overflow: hidden;
   margin: 2rem auto;
   border-radius: 0.5rem;
-  /* border: 0.15rem solid var(--dark-purple-3); */
-  border: 0.15rem solid rgb(229, 231, 235);
+  color: var(--white);
+  border: 0.1rem solid var(--grey);
+  /* border: 0.15rem solid rgb(229, 231, 235); */
 }
 .upper-tab {
   /* border-bottom: 0.15rem solid var(--dark-purple-3); */
-  border-bottom: 0.15rem solid rgb(229, 231, 235);
   background: var(--white);
+  background: var(--primary-pink);
   /* border: 0.15rem solid var(--dark-purple-3); */
 }
 .market-tabs {
@@ -18,20 +19,21 @@
   background: var(--white) !important;
   padding: 1rem 2rem;
   font-size: 0.8rem;
-  color: var(--dark-purple);
+  background: var(--primary-pink) !important;
+  color: var(--white);
 }
 .active-market-tabs {
-  color: var(--dark-purple-3);
-  background: var(--white) !important;
-  border-bottom: 0.2rem solid var(--dark-purple);
+  color: var(--white);
+  background: var(--primary-pink) !important;
+  border-bottom: 0.2rem solid var(--white);
   width: auto;
   border-right: 0 !important;
   padding: 1rem 2rem;
   font-size: 0.8rem;
 }
 .market-content {
-  background: var(--white);
-  color: var(--dark-purple-3);
+  background: none;
+  color: var(--white);
   padding: 2rem 1rem;
   display: flex;
   align-items: center;

@@ -1,7 +1,7 @@
 .recently-listed-card {
   display: flex;
   align-items: center;
-  color: var(--dark-purple-3);
+  color: var(--white);
   padding: 0 1rem 0 0;
   cursor: pointer;
   transition: 0.2s all;
@@ -9,10 +9,9 @@
   /* border-bottom: 0.1rem solid var(--dark-purple-3); */
 }
 .recently-listed-card:not(:last-child) {
-  border-bottom: 0.1rem solid var(--dark-purple-3);
+  border-bottom: 0.1rem solid var(--white);
 }
 .recently-listed-card:hover {
-  background: var(--dark-purple);
   color: var(--white);
 }
 .listed-card-img {
@@ -45,13 +44,13 @@
   font-weight: 600 !important;
 }
 .time {
-  color: #aaa;
+  color: var(--white);
   font-size: 0.8rem;
 }
 .etherum {
   font-size: 0.9rem;
   margin: 0.1rem 0;
-  color: #aaa;
+  color: var(--white);
 }
 .arrow-btn {
   background: none;

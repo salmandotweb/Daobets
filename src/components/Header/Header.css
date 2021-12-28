@@ -9,11 +9,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  clip-path: ellipse(72% 90% at 50% 0%);
+  /* clip-path: ellipse(72% 90% at 50% 0%); */
   position: relative;
   z-index: 1;
 }
-.header::after {
+/* .header::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -21,7 +21,27 @@
   top: 0;
   left: 0;
   background: radial-gradient(rgb(94, 53, 177, 0.85), rgb(47, 27, 89, 0.9));
+  background: hsl(300, 100%, 64%, 0.1);
   z-index: -1;
+} */
+.bg-video {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.bg-video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.7);
+}
+.bg-video > video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 .header__content {
   position: absolute;

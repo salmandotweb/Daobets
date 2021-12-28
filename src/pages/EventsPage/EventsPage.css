@@ -30,10 +30,10 @@
   cursor: pointer;
   margin-bottom: 0.5rem;
   transition: 250ms all;
-  color: rgb(113, 113, 113);
+  color: var(--white);
 }
 .sportBtn:hover {
-  background: rgb(239, 239, 239);
+  background: var(--primary-pink);
   color: #000;
 }
 .sportBtn:active {
@@ -62,6 +62,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1rem;
+  color: var(--white);
 }
 .dao-cards-container {
   display: flex;
@@ -71,8 +72,11 @@
   width: 100%;
   padding: 2rem 0.5rem;
 }
+.appTabContainer {
+  box-shadow: none;
+}
 .dao-card {
-  border: 0.2rem solid #e5e7eb;
+  border: 0.1rem solid var(--white);
   padding: 2rem;
   border-radius: 0.5rem;
   display: flex;
@@ -87,6 +91,7 @@
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 2rem;
+  color: var(--white);
 }
 .connectBtn {
   background-color: var(--primary-pink);
@@ -97,6 +102,10 @@
   text-transform: uppercase;
   font-size: 0.9rem;
   padding: 0.3rem;
+  transition: 250ms all;
+}
+.connectBtn:hover {
+  background: none;
 }
 .connectBtn:active {
   transform: scale(0.98);

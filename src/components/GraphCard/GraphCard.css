@@ -5,11 +5,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: var(--white);
+  background: none;
   color: var(--primary-pink);
   padding: 2rem 3rem;
-  border-color: 229, 231, 235;
-  border-style: solid;
+  border: 0.1rem solid var(--grey);
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -27,10 +26,10 @@
 .graph-card-body p {
   font-weight: 400;
   margin-top: 0.5rem;
-  color: #aaa;
+  color: var(--white);
 }
 .graph-btn {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .graph-btn:hover {
   color: var(--primary-pink);

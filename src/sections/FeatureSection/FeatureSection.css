@@ -7,10 +7,9 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background: #fafafa;
 }
 .feature-section .title {
-  color: var(--dark-purple-3);
+  color: var(--white);
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;

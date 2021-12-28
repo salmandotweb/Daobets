@@ -1,5 +1,5 @@
 .dao-card {
-  border: 0.2rem solid rgb(229, 231, 235);
+  border: 0.2rem solid var(--grey);
   padding: 2rem;
   border-radius: 0.5rem;
   display: flex;

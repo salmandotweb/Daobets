@@ -1,10 +1,8 @@
 .recently-listed-container {
   width: 100%;
-  background: var(--white);
   border-radius: 0.5rem;
   overflow: hidden;
-  /* border: 0.15rem solid var(--dark-purple-3); */
-  border: 0.15rem solid rgb(229, 231, 235);
+  border: 0.1rem solid var(--grey);
 }
 .upper-listed-tab {
   border-bottom: 0.1rem solid var(--dark-purple-3);
@@ -12,18 +10,19 @@
 .listed-tabs {
   width: 100%;
   border-right: 0 !important;
-  background: var(--white) !important;
-  color: var(--dark-purple);
+  /* background: var(--primary-pink) !important; */
+  color: var(--white);
 }
 .active-listed-tabs {
-  color: var(--dark-purple-3);
-  background: var(--white) !important;
-  border-bottom: 0.2rem solid var(--dark-purple);
+  color: var(--white);
+  background: var(--primary-pink) !important;
+  border-bottom: 0.15rem solid var(--white);
   width: 100%;
   border-right: 0 !important;
 }
 .listed-content {
-  background: var(--white);
+  /* background-image: linear-gradient(to bottom, #ff47ff, #720072); */
+  background: var(--black);
   padding: 0 !important;
 }
 @media screen and (max-width: 890px) {

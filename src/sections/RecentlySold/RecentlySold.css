@@ -4,7 +4,7 @@
   border-radius: 0.5rem;
   overflow: hidden;
   background: var(--white);
-  border: 0.15rem solid var(--dark-purple-3);
+  border: 0.1rem solid var(--grey);
 }
 .upper-listed-tab {
   border-bottom: 0.1rem solid var(--dark-purple);
@@ -12,12 +12,12 @@
 .listed-tabs {
   width: auto;
   border-right: 0 !important;
-  background: var(--dark-purple-3) !important;
+  /* background: var(--dark-purple-3) !important; */
 }
 .active-listed-tabs {
   color: var(--white);
   background: none;
-  border-bottom: 0.2rem solid var(--dark-purple);
+  border-bottom: 0.15rem solid var(--dark-purple);
   width: auto;
   border-right: 0 !important;
 }

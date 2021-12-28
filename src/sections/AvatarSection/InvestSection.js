@@ -7,15 +7,7 @@ import "../../index.css";
 export default function InvestSection() {
   return (
     <>
-      <div
-        className="invest-section"
-        style={{
-          background: "url(images/avatar-bg.jpeg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+      <div className="invest-section">
         <SectionContent title="Your Social Avatars" />
         <div className="invest-section-cards">
           <InvestCard img="images/avatar-1.png" subTitle="Samurai" />

@@ -1,34 +1,35 @@
 .menu-tabs {
   width: 100%;
-  background: var(--white) !important;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-image: linear-gradient(to bottom, #ff47ff, #720072);
   padding: 1rem 0;
-  border-bottom: 0.15rem solid rgb(229, 231, 235);
 }
 .menu-tabs-links {
   list-style-type: none;
 }
 .menu-tabs-links > a {
   text-decoration: none;
-  color: var(--dark-purple-3);
+  color: var(--white);
   transition: 0.2s all;
   font-weight: 500;
-  padding: 0 1rem;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.1rem;
 }
 .menu-tabs-links > a:hover {
-  color: var(--primary-pink);
+  color: var(--black);
 }
 .is-active {
-  color: var(--primary-pink);
+  color: var(--black);
 }
 @media screen and (max-width: 420px) {
   .menu-tabs-links > a {
     font-size: 0.8rem;
   }
   .menu-tabs-links > a:hover {
-    color: var(--dark-purple-3);
+    color: var(--black);
   }
 }
 @media screen and (max-width: 350px) {

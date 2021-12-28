@@ -2,7 +2,7 @@ import React from "react";
 import "./Dao.css";
 import "../../index.css";
 import DaoStats from "../DaoStats/DaoStats";
-import Proposal from "../Proposal/Proposal";
+// import Proposal from "../Proposal/Proposal";
 // import DaoCard from "../DaoCard/DaoCard";
 
 export default function Dao() {
@@ -85,19 +85,19 @@ export default function Dao() {
           <h2>Proposals</h2>
           <button className="proposalBtn">Create Proposal</button>
         </div>
-        <div className="proposals">
+        {/* <div className="proposals">
           <Proposal
             rating="2.9"
             title="Add 1 Basis Point Fee Tier"
             btn="Vote Now"
-            color="red"
+            color="green"
             border="green"
           />
           <Proposal
             rating="13"
             title="Upgrade Governance Contract to Compoun's Governance Bravo"
             btn="Vote Now"
-            color="red"
+            color="green"
             border="green"
           />
           <Proposal
@@ -128,7 +128,7 @@ export default function Dao() {
             color="green"
             border="green"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

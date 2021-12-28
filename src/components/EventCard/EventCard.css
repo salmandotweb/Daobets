@@ -3,7 +3,9 @@
   border-radius: 0.5rem;
   overflow: hidden;
   margin-bottom: 2rem;
-  box-shadow: 0 0.1rem 0.4rem #aaa;
+  border: 0.1rem solid var(--grey);
+  /* background-image: linear-gradient(to bottom, #ff47ff, #720072); */
+  color: var(--white);
 }
 .event-card-header {
   background: var(--primary-pink);
@@ -13,6 +15,7 @@
 .event-card-header > p {
   margin: 0;
   font-size: 0.9rem;
+  color: var(--white);
 }
 .event-card-body {
   display: flex;
@@ -39,9 +42,11 @@
   font-weight: 500;
   font-size: 0.9rem;
   text-align: center;
+  color: var(--white);
 }
 .vs {
   margin: 0 0.5rem;
+  color: var(--white);
 }
 .event-card-right {
   display: flex;
@@ -59,7 +64,6 @@
   color: #fff;
   padding: 0.3rem 3rem;
   border-radius: 0.3rem;
-  box-shadow: 0 0.1rem 0.4rem #aaa;
 }
 .event-btn-stat > span {
   font-size: 0.9rem;

@@ -4,15 +4,7 @@ import "../../index.css";
 
 export default function PartnerBanner() {
   return (
-    <div
-      className="partner-banner"
-      style={{
-        background: "url(images/bg-image.jpeg)",
-        backgroundSize: "cover",
-        backgroundPosition: "bottom center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <div className="partner-banner">
       <h1 data-aos="fade-left">Our Partners</h1>
       <div className="logos">
         <div className="partner-logo">

@@ -7,14 +7,13 @@
   padding: 2rem 1rem;
   transition: 1s all !important;
   background: none;
-  background-image: linear-gradient(to bottom, rgb(33, 0, 99), rgb(2, 0, 31));
+  background-image: linear-gradient(to bottom, #ff47ff, #720072);
   backdrop-filter: blur(10px);
   border: none;
-  box-shadow: 0 0.5rem 0.8rem rgb(94, 53, 177, 0.2);
   cursor: pointer;
 }
 .invest-card:hover {
-  background-image: linear-gradient(to bottom, rgb(44, 0, 133), rgb(0, 13, 65));
+  background-image: linear-gradient(to bottom, #ff47ff, #720072);
   transform: scale(1.1) !important;
 }
 .card-body .subtitle {
@@ -51,7 +50,7 @@
     width: 85%;
   }
   .invest-card:hover {
-    background-image: linear-gradient(to bottom, rgb(33, 0, 99), rgb(2, 0, 31));
+    background-image: linear-gradient(to bottom, #ff47ff, #720072);
     transform: scale(1) !important;
   }
 }

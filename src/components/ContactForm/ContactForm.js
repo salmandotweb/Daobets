@@ -24,20 +24,26 @@ export default function ContactForm() {
           <div class="screen-body-item">
             <div class="app-form">
               <div class="app-form-group">
-                <input class="app-form-control" placeholder="NAME" />
+                <input class="app-form-control" placeholder="NAME" required />
               </div>
               <div class="app-form-group">
-                <input class="app-form-control" placeholder="EMAIL" />
+                <input class="app-form-control" placeholder="EMAIL" required />
               </div>
               <div class="app-form-group">
-                <input class="app-form-control" placeholder="TELEGRAM ID" />
+                <input
+                  class="app-form-control"
+                  placeholder="TELEGRAM ID"
+                  required
+                />
               </div>
               <div class="app-form-group message">
                 <input class="app-form-control" placeholder="MESSAGE" />
               </div>
               <div class="app-form-group buttons">
                 {/* <button class="app-form-button">CANCEL</button> */}
-                <button class="app-form-button">SEND</button>
+                <button type="submit" class="app-form-button">
+                  SEND
+                </button>
               </div>
             </div>
           </div>
